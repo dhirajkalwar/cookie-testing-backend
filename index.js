@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 app.use(cors({
     // origin: 'https://cookie-testing-frontend.vercel.app',
-    origin: 'http://localhost:5174',
+    origin: 'https://cookie-testing-frontend.vercel.app',
     credentials: true,
 }));
 app.use(cookieParser());
